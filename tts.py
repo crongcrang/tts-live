@@ -28,7 +28,7 @@ import edge_tts
 # หมายเลขเวอร์ชันปัจจุบันของโปรแกรม
 CURRENT_VERSION = "1.0.0" 
 # URL สำหรับตรวจสอบเวอร์ชันล่าสุด (ต้องเข้าถึงได้สาธารณะ)
-UPDATE_CHECK_URL = "https://example.com/tiktok_tts_version.txt" 
+UPDATE_CHECK_URL = "https://raw.githubusercontent.com/crongcrang/tts-live/refs/heads/main/tts_version.txt" 
 # URL สำหรับดาวน์โหลดไฟล์เวอร์ชันใหม่ (ไฟล์ .exe หรือ .zip)
 DOWNLOAD_URL = "https://example.com/tiktok_tts_latest.exe" 
 
@@ -841,3 +841,4 @@ if __name__ == '__main__':
         
     app = TikTokTTSApp(root)
     root.mainloop()
+
