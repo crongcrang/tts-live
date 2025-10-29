@@ -36,7 +36,8 @@ requests: สำหรับการตรวจสอบอัปเดต
 การติดตั้ง
 Bash
 
-pip install pygame TikTokLive edge-tts requests Pillow pystray
+pip install TikTokLive twitchAPI irc pytchat edge-tts pygame pystray pillow requests tqdm
+
 🚀 วิธีการใช้งาน (How to Use)
 รันโปรแกรม: หากคุณใช้ไฟล์ .exe ที่ถูกคอมไพล์แล้ว ให้ดับเบิลคลิกเพื่อเปิดโปรแกรม
 
